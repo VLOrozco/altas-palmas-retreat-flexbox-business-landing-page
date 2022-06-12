@@ -38,14 +38,37 @@ body {
 
 /*  =================================================================*/
 /* 2. LAYOUT */
+/* LOGO */
+#header {
+  margin: 3rem 0;
+  text-align: center;
+}
+  .fa-drupal {
+    order: 2;
+    width: 5%;
+    height: 3rem;
+    margin-top: 0.1rem;
+    padding: 0.3rem;
+    vertical-align: top;
+  }
 
+.mini-logo {
+  height: 35px;
+}
 
 
 
 
 /*  =================================================================*/
 /* 3. TYPOGRAPHY */
-
+/* LOGO */
+#header {
+  font-family: 'Bad Script', cursive;
+  font-size: 1rem;
+}
+  .fa-drupal {
+    font-size: 1rem;
+  }
 
 
 
