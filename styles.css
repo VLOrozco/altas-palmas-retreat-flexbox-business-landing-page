@@ -39,7 +39,7 @@ body {
 /*  =================================================================*/
 /* 2. LAYOUT */
 /* LOGO */
-#header {
+#logo-title {
   margin: 3rem 0;
   text-align: center;
 }
@@ -62,9 +62,9 @@ body {
 /*  =================================================================*/
 /* 3. TYPOGRAPHY */
 /* LOGO */
-#header {
+#logo-title {
   font-family: 'Bad Script', cursive;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
   .fa-drupal {
     font-size: 1rem;
