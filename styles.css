@@ -36,12 +36,24 @@ body {
   width: 100%;
 }
 
+/* flexbox */
+.header-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*  =================================================================*/
 /* 2. LAYOUT */
 /* LOGO */
+.header-banner {
+  /* background-color: blue; */
+  height: 100px;
+  margin-top: 0;
+}
 #logo-title {
-  margin: 3rem 0;
   text-align: center;
+  margin-top: 2rem;
 }
   .fa-drupal {
     order: 2;
