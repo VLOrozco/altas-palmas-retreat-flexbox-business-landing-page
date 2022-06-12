@@ -23,8 +23,18 @@ SECTIONS:
 
 /*  =================================================================*/
 /* 1. GLOBAL */
-
-
+:root {
+  font-family: 'Delius', sans-serif;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+body {
+  display: block;
+  background-color: rgba(255, 255, 240, 0.7);
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
 
 /*  =================================================================*/
 /* 2. LAYOUT */
