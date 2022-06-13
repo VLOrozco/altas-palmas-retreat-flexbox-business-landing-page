@@ -260,16 +260,13 @@ body {
   background-size: center;
   background-position: center center;
 }
-  .employee-box:nth-child(1) .img-area 
-  {
+  .employee-box:nth-child(1) .img-area {
     background-image: url(media/300x300px_jake-nackos-IF9TK5Uy-KI-unsplash.png);
   }
-  .employee-box:nth-child(2) .img-area 
-  {
+  .employee-box:nth-child(2) .img-area {
     background-image: url(media/300x300px_batel-studio-ttSRjiYG_WM-unsplash.png);
   }
-  .employee-box:nth-child(3) .img-area 
-  {
+  .employee-box:nth-child(3) .img-area {
     background-image: url(media/300x300px_joseph-gonzalez-iFgRcqHznqg-unsplash.png);
   }
 
