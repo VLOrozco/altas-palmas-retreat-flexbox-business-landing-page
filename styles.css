@@ -9,13 +9,18 @@
 3. TYPOGRAPHY
 4. MEDIA QUERIES
 
-SECTIONS:
+SECTIONS OUTLINE:
     HEADER | LOGO & NAVBAR
     MAIN
       a. main-greeting
-          +mini-logo
+        +mini-logo
+        +img-container
+          -resort-main-img
+          -credits
     PAGE SECTIONS
       a. mission
+        +mission
+        +mission-fig
       b. activities
       c. employees
       d. contact
