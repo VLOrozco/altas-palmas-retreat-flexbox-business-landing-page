@@ -134,14 +134,14 @@ body {
   }
 
 /* MISSION + ACTIVITY | LAYOUT */
-.mission-container, .activities-container {
+.mission-container, .activities-container, .employees-container {
   /* flexbox */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-  .mission-container {
+  .mission-container, .employees-container {
     margin-bottom: 6rem;
   }
   .mission, .activity, .staff {
@@ -174,7 +174,7 @@ body {
   box-shadow: 4px 6px 10px #888888;
 }
 
-/* ACTIVITIES */
+/* ACTIVITIES | LAYOUT */
 .activities-container {
   margin-bottom: 6rem;
 }
@@ -215,6 +215,13 @@ body {
     margin-top: 0;
     width: 90%;
   }
+
+/* EMPLOYEES | LAYOUT */
+
+
+
+
+
 
 /*  =================================================================*/
 /* 3. TYPOGRAPHY */
@@ -285,6 +292,15 @@ body {
   .spa2 {
     transform: rotate(180deg);
   }
+
+/* EMPLOYEES | TYPOGRAPHY */
+.fa-pagelines {
+  font-size: 2rem;
+  margin: 0.8rem;
+}
+
+
+
 
 /* UNSPLASH.COM PHOTO CREDITS | TYPOGRAPHY */
 .photo-credits, .act-credits p {
