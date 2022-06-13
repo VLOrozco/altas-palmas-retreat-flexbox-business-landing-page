@@ -110,6 +110,7 @@ body {
   align-items: center;
 
   margin: 2rem 0;
+  margin-top: 3rem;
 }
 
 .img-container {
@@ -140,34 +141,37 @@ body {
   justify-content: center;
   align-items: center;
 }
+  .mission-container {
+    margin-bottom: 6rem;
+  }
   .mission, .activity, .staff {
     /* flexbox */
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 80%;
   }
     #mission, #activities, #staff-header {
       width: 100%;
-      padding-left: 1rem;
+      margin-top: 3rem;
     }
-    .mission-statement, .activities-statement, .staff-statement {     
+    .mission-statement, .activities-statement, .staff-statement {
       width: 95%;
+      max-width: 479px;
       margin-top: 0;
       padding-top: 0;
     }
 
-.mission-fig {
-  width: 280px;
-  height: 32rem;
-  object-fit: cover;
-  padding-top: 1.5rem; 
-}
+/* MISSION IMAGE | LAYOUT */
 #mission-img {
   display: block;
-  height: 80%;
-  width: 100%;
+  width: 285px;
+  height: 250px;
+  margin-top: 1.5rem;
+
+  object-fit: cover;
   border-radius: 35% 5%;
+  box-shadow: 4px 6px 10px #888888;
 }
 
 
@@ -215,19 +219,19 @@ body {
 
 /* MISSION + ACTIVITY | TYPOGRAPHY */
 #mission, #activities, #staff-header {
-  background-color: green;
+  /* background-color: green; */
 
   font-family: 'Bad Script', cursive;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
 }
 .mission-statement, .activities-statement, .staff-statement {
-  background-color: yellow;
-  font-size: 1.3rem;
+  /* background-color: yellow; */
+  font-size: 0.9rem;
   text-align: center;
-  letter-spacing: 0.1rem;
-  word-spacing: 0.2rem;
-  line-height: 2.2rem;
+  letter-spacing: 0.6px;
+  word-spacing: 3px;
+  line-height: 1.5rem;
 }
 
 /* UNSPLASH.COM PHOTO CREDITS | TYPOGRAPHY */
@@ -242,3 +246,11 @@ body {
 
 /*  =================================================================*/
 /* 4. MEDIA QUERIES */
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
