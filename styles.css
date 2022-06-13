@@ -37,7 +37,8 @@ body {
 }
 
 /* flexbox */
-.header-banner {
+.header-banner,
+.nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,15 +46,18 @@ body {
 
 /*  =================================================================*/
 /* 2. LAYOUT */
-/* LOGO */
+
+/* HEADER */
 .header-banner {
   /* background-color: blue; */
-  height: 100px;
+  height: 80px;
   margin-top: 0;
 }
+
+/* LOGO */
 #logo-title {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
   .fa-drupal {
     order: 2;
@@ -68,11 +72,29 @@ body {
   height: 35px;
 }
 
+/* NAVBAR */
+.nav {
+  /* flexbox */
+  flex-flow: nowrap row;
+  justify-content: space-evenly;
+  align-items: center;
 
-
+  background-color: rgba(37, 97, 9, 0.219);
+  height: 4rem;
+  padding: 0;
+}
+.nav-btn {
+  /* background-color: pink; */
+  padding: 0.2rem;
+}
+  .nav-link { 
+    transition: color 1s ease 0;
+    padding: 0.3rem;
+  }
 
 /*  =================================================================*/
 /* 3. TYPOGRAPHY */
+
 /* LOGO */
 #logo-title {
   font-family: 'Bad Script', cursive;
@@ -82,7 +104,24 @@ body {
     font-size: 1rem;
   }
 
-
+/* NAVBAR | LINKS & CTA */
+.nav {
+  list-style-type: none;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  text-align: center; 
+}
+    .nav-link:hover {
+      color: darkolivegreen;
+      cursor: pointer;
+    }
+    .nav-link:active {
+      color: black;
+    }
 
 
 
