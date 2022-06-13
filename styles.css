@@ -46,13 +46,11 @@ body {
 }
 
 /* flexbox */
-.header-banner,
-.nav {
+.header-banner, .nav, .main, .mission-container, .activities-container, .employees-container, .activities, .employee-box, .contact-container, .input-flexbox {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 
 
 /*  =================================================================*/
@@ -89,7 +87,6 @@ body {
   /* flexbox */
   flex-flow: nowrap row;
   justify-content: space-evenly;
-  align-items: center;
 
   background-color: rgba(37, 97, 9, 0.219);
   height: 4rem;
@@ -107,10 +104,7 @@ body {
 /* MAIN | LAYOUT */
 .main {
   /* flexbox */
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   margin: 2rem 0;
   margin-top: 3rem;
@@ -118,7 +112,6 @@ body {
 
 .img-container {
   /* background-color: purple; */
-
   /* flexbox */
   display: flex;
   flex-flow: column;
@@ -131,18 +124,11 @@ body {
     object-fit: cover;
     box-shadow: 4px 6px 10px #888888;
   }
-  .photo-credits {
-    margin: 1rem;
-    text-shadow: -0.3px 1px #888888;
-  }
 
 /* MISSION + ACTIVITY | LAYOUT */
 .mission-container, .activities-container, .employees-container {
   /* flexbox */
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
   .mission-container, .employees-container {
     margin-bottom: 6rem;
@@ -184,9 +170,6 @@ body {
 
 .activities {
   /* flexbox */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
 }
   /* ACTIVITY IMAGES | LAYOUT */
@@ -222,10 +205,7 @@ body {
 /* EMPLOYEES | LAYOUT */
 .employee-box {
   /* flexbox */
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 
   width: 200px;
   height: 320px;
@@ -285,11 +265,7 @@ body {
   .contact-container {
     background-color: rgba(85, 107, 47, 0.7);
     height: 720px;
-
     /* flexbox */
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 
 .contact-form {
@@ -306,10 +282,7 @@ body {
 .input-flexbox {
   /* border: 1px solid yellow; */
   /* flexbox */
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
   .input-group {
@@ -337,6 +310,13 @@ body {
     cursor: pointer;
   }
 
+/* FOOTER | LAYOUT */
+#footer {
+  /* border: 1px solid #000; */
+  margin: 0 auto;
+  padding-top: 0.5rem;
+  height: 120px;
+}
 
 
 /*  =================================================================*/
@@ -470,17 +450,31 @@ letter-spacing: 1px;
   font-size: 1rem;
 }
 
+/* FOOTER | TYPOGRAPHY */
+#footer {
+  text-align: center;
+}
+.mini-logo2 {
+  margin-bottom: -23px;
+}
+.contact-info, .copyright {
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+}
+
 
 /* UNSPLASH.COM PHOTO CREDITS | TYPOGRAPHY */
 .photo-credits, .act-credits p {
   /* background-color: aqua; */
-  color: gray;
+  color: rgb(129, 126, 126);
   font-size: 0.6rem;
   line-height: 1rem;
   text-align: center;
   margin: 1rem;
 }
-
+.box-footer {
+  color: rgb(129, 126, 126);
+}
 
 /*  =================================================================*/
 /* 4. MEDIA QUERIES */
