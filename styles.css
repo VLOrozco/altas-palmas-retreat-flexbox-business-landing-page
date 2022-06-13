@@ -12,6 +12,8 @@
 SECTIONS:
     HEADER | LOGO & NAVBAR
     MAIN
+      a. main-greeting
+          +mini-logo
     PAGE SECTIONS
       a. mission
       b. activities
