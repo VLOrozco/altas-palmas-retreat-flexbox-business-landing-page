@@ -499,7 +499,7 @@ letter-spacing: 1px;
 
   /* NAVBAR */
   .nav {
-    width: 70%;
+    width: 95%;
   }
   .nav-btn {
     padding: 0.6rem;
@@ -518,16 +518,48 @@ letter-spacing: 1px;
       margin: 2rem;
       margin-left: 0;
       margin-right: 3rem;
+      margin-top: -20px;
     }
     #greeting {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       line-height: 2rem;
     }
     .mini-logo {
-      height: 38px;
+      height: 48px;
       margin: 0.2rem;
     }
-    
+    .resort-main-img {
+      height: 300px;
+      width: 300px;
+    }
+
+  /* MISSION */
+  #mission, #activities, #staff-header, .cta-header {
+    font-size: 1.6rem;
+  }
+  .mission-statement, .activities-statement, .staff-statement, .cta-msg {
+    font-size: 1rem;
+    letter-spacing: 0.7px;
+    word-spacing: 5px;
+    line-height: 1.8rem;
+  }
+  #mission-img {
+    height: 350px;
+    width: 400px;
+  }
+  .photo-credits, .act-credits p {
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    margin: 1.3rem;
+  }
+
+  /* ACTIVITIES */
+
+
+  /* EMPLOYEES */
+
+
+  /* FOOTER */
 }
 
 
