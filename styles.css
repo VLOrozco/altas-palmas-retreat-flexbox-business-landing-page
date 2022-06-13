@@ -111,18 +111,13 @@ body {
   /* flexbox */
   display: flex;
   flex-flow: column;
-
 }
-  .picture {
-  margin-top: 2rem;
-  }
   .resort-main-img {
     border: 6px ridge rgb(85, 107, 47, 0.7);
     border-radius: 45px;
     width: 285px;
     height: 35vh;
     object-fit: cover;
-
     box-shadow: 4px 6px 10px #888888;
   }
   .photo-credits {
