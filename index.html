@@ -160,26 +160,31 @@
 <!-- CONTACT -->
 <section id="contact" class="cta-section">
   <div class="contact-container">
-  <form class="contact" action="/form/cta.php" method="post">
-    <h4 class="cta-header">Contact us</h4>
-    <p class="cta-msg">We'd love to hear from you!</p>
+  <form class="contact-form">
+    <div class="contact-header">
+      <h4 class="cta-header">Contact us</h4>
+      <p class="cta-msg">We'd love to hear from you!</p>
+    </div>
+
+    <div class="input-flexbox">
     <div class="input-group">
-      <!-- <label for="name" class="label">Your Name</label> -->
       <input type="text" id="name" class="input"  required name="name" placeholder="Your Name">
     </div>
-    <div class="input-group" onclick="onClick()">
-      <!-- <label for="phone" class="label">Phone No.</label> -->
+
+    <div class="input-group">
       <input type="text" id="phone"  class="input" required name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Phone No. (format: 123-123-1234)">
     </div>
-    <div class="input-group" onclick="onClick()">
-      <!-- <label for="email" class="label">Email</label> -->
+
+    <div class="input-group">
       <input type="email" id="email"  class="input" required name="email" placeholder="Email">
     </div>
-    <div class="input-group" onclick="onClick()">
-      <!-- <label for="message" class="label">Your message</label> -->
+
+    <div class="input-group">
       <textarea id="msg" class="msg"  rows="6" class="input" name="message" " placeholder="Your message"></textarea>
     </div>
-    <button type="submit" id="btn" class="submit-btn" onclick="onClick()">Submit</button>
+
+    <button type="submit" id="btn" class="submit-btn">Submit</button>
+    </div>
   </form>
   </div>
 </section> 

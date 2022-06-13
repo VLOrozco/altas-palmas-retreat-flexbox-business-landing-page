@@ -275,6 +275,68 @@ body {
   margin-bottom: 0;
 }
 
+/* CONTACT | TYPOGRAPHY */
+.cta-section {
+  background: url("/media/sarah-dorweiler-2s9aHF4eCjI-unsplash.jpg") no-repeat;
+  width: 100% auto;
+  -webkit-box-sizing: cover;background-size: cover;
+  background-position: 15% center;
+}
+  .contact-container {
+    background-color: rgba(85, 107, 47, 0.7);
+    height: 720px;
+
+    /* flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.contact-form {
+  width: 290px;
+}
+  .cta-header {
+    margin-bottom: 0;
+  }
+  .cta-msg {
+    margin-top: 0.6rem;
+    margin-bottom: 1.5rem;
+  }
+
+.input-flexbox {
+  /* border: 1px solid yellow; */
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+  .input-group {
+    position: relative;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: -5px;
+    width: 283px;
+  }
+  .input, .msg {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    outline: 0;
+    border: 1px solid #fff;
+    background: transparent;
+    width: 283px;
+  }
+  .submit-btn {
+    margin-top: 1rem;
+    padding: 10px;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+
 
 
 /*  =================================================================*/
@@ -310,7 +372,7 @@ body {
     }
 
 /* MAIN | TYPOGRAPHY */
-.mission-statement, .activities-statement, .activity-figcap p, .img-text, .input-group, .button {
+.mission-statement, .activities-statement, .activity-figcap p, .img-text, .input-group, .input, .msg, .submit-btn {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -324,14 +386,14 @@ body {
   }
 
 /* MISSION + ACTIVITY | TYPOGRAPHY */
-#mission, #activities, #staff-header {
+#mission, #activities, #staff-header, .cta-header {
   /* background-color: green; */
 
   font-family: 'Bad Script', cursive;
   font-size: 1.2rem;
   text-align: center;
 }
-.mission-statement, .activities-statement, .staff-statement {
+.mission-statement, .activities-statement, .staff-statement, .cta-msg {
   /* background-color: yellow; */
   font-size: 0.77rem;
   text-align: center;
@@ -382,6 +444,31 @@ font-size: 0.6rem;
 letter-spacing: 1px;
 }
 
+/* CONTACT | TYPOGRAPHY */
+/* .contact-header {
+  text-align: center;
+} */
+.cta-header {
+  font-size: 1.5rem;
+  color: #fff;
+}
+.cta-msg {
+  font-family: 'Sriracha', cursive;
+  font-size: 1rem;
+  color: rgba(255, 255, 240);
+}
+.input-group {
+  font-size: 1rem;
+  color: #fff;
+}
+.input, .msg {
+  color: #fff;
+  font-size: 1rem;
+}
+.submit-btn {
+  color: #fff;
+  font-size: 1rem;
+}
 
 
 /* UNSPLASH.COM PHOTO CREDITS | TYPOGRAPHY */
