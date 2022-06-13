@@ -239,11 +239,11 @@ body {
   transition: 0.3s;
   box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
-    .employee-box:hover {
-      border: 5px solid white;
-      background: rgba(85, 107, 47, 0.593);
-      color: #fff;
-    }
+  .employee-box:hover {
+    border: 5px solid white;
+    background: rgba(85, 107, 47, 0.593);
+    color: #fff;
+  }
 
 /* EMPLOYEE IMAGE | LAYOUT */
 .img-area {
