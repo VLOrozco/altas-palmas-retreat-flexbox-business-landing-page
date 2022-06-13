@@ -17,6 +17,7 @@ SECTIONS:
       b. activities
       c. employees
       d. contact
+    UNSPLASH.COM PHOTO CREDITS
     FOOTER | CREDITS PHOTOS & MUSIC
 */
 
@@ -47,14 +48,14 @@ body {
 /*  =================================================================*/
 /* 2. LAYOUT */
 
-/* HEADER */
+/* HEADER | LAYOUT */
 .header-banner {
   /* background-color: blue; */
   height: 80px;
   margin-top: 0;
 }
 
-/* LOGO */
+/* LOGO | LAYOUT */
 #logo-title {
   text-align: center;
   margin-top: 3rem;
@@ -70,9 +71,10 @@ body {
 
 .mini-logo {
   height: 35px;
+  margin: 0.4rem;
 }
 
-/* NAVBAR */
+/* NAVBAR | LAYOUT */
 .nav {
   /* flexbox */
   flex-flow: nowrap row;
@@ -92,10 +94,82 @@ body {
     padding: 0.3rem;
   }
 
+/* MAIN | LAYOUT */
+.main {
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2rem 0;
+}
+
+.img-container {
+  /* background-color: purple; */
+
+  /* flexbox */
+  display: flex;
+  flex-flow: column;
+
+}
+  .picture {
+  margin-top: 2rem;
+  }
+  .resort-main-img {
+    border: 0.6rem ridge rgb(85, 107, 47, 0.7);
+    border-radius: 20%;
+    width: 285px;
+    height: 35vh;
+    object-fit: cover;
+  }
+  .photo-credits {
+    margin: 0.8rem;
+  }
+
+/* MISSION + ACTIVITY | LAYOUT */
+.mission-container, .activities-container {
+  /* flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .mission, .activity, .staff {
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+  }
+    #mission, #activities, #staff-header {
+      width: 100%;
+      padding-left: 1rem;
+    }
+    .mission-statement, .activities-statement, .staff-statement {     
+      width: 95%;
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+.mission-fig {
+  width: 280px;
+  height: 32rem;
+  object-fit: cover;
+  padding-top: 1.5rem; 
+}
+#mission-img {
+  display: block;
+  height: 80%;
+  width: 100%;
+  border-radius: 35% 5%;
+}
+
+
 /*  =================================================================*/
 /* 3. TYPOGRAPHY */
 
-/* LOGO */
+/* LOGO | TYPOGRAPHY */
 #logo-title {
   font-family: 'Bad Script', cursive;
   font-size: 1.6rem;
@@ -104,7 +178,7 @@ body {
     font-size: 1rem;
   }
 
-/* NAVBAR | LINKS & CTA */
+/* NAVBAR | LINKS & CTA | TYPOGRAPHY */
 .nav {
   list-style-type: none;
 }
@@ -113,6 +187,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8rem;
+  letter-spacing: 1px;
   text-align: center; 
 }
     .nav-link:hover {
@@ -123,7 +198,42 @@ body {
       color: black;
     }
 
+/* MAIN | TYPOGRAPHY */
+.main-greeting {
+  /* background-color: skyblue; */
+  text-align: center;
+}
+  #greeting {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
 
+/* MISSION + ACTIVITY | TYPOGRAPHY */
+#mission, #activities, #staff-header {
+  background-color: green;
+
+  font-family: 'Bad Script', cursive;
+  font-size: 1rem;
+  text-align: center;
+}
+.mission-statement, .activities-statement, .staff-statement {
+  background-color: yellow;
+  font-size: 1.3rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  word-spacing: 0.2rem;
+  line-height: 2.2rem;
+}
+
+/* UNSPLASH.COM PHOTO CREDITS | TYPOGRAPHY */
+.photo-credits, .act-credits p {
+  /* background-color: aqua; */
+  color: gray;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  text-align: center;
+  margin: 0.6rem;
+}
 
 /*  =================================================================*/
 /* 4. MEDIA QUERIES */
