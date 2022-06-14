@@ -180,7 +180,7 @@ body {
 }
   /* ACTIVITY IMAGES | LAYOUT */
   .activity-fig {
-    margin: 3rem 0;
+    margin: 1rem 0;
   }
 
   #activity1, #activity2, #activity3 {
@@ -188,18 +188,18 @@ body {
     height: 250px;
     object-fit: cover;
     border-radius: 30px;
-    box-shadow: 0 2rem 2rem 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
   }
     #activity2 {
       object-position: top center;
-      margin-top: -50px;
+      margin-top: -10px;
     }
     #activity1, #activity3 {
       margin-left: 8px;
     }
     #activity3 {
       object-position: top center;
-      margin-top: -50px;
+      margin-top: -10px;
     }
 
   .act-credits p {
@@ -554,6 +554,36 @@ letter-spacing: 1px;
   }
 
   /* ACTIVITIES */
+  .activities {
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .activity-fig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.8rem;
+  }
+  #activity1, #activity2, #activity3 {
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0.5rem 0.5rem 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem 0 0 0;
+  }
+  .act-credits {
+    display: flex;
+    justify-content: center;
+  }
+  .act-credits p {
+    margin-top: 0;
+    width: 60%;
+    line-height: 1rem;
+    text-align: center;
+    padding: 0.1rem;
+  }
+
 
 
   /* EMPLOYEES */
