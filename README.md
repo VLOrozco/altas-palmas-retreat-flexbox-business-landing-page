@@ -57,12 +57,12 @@ This is a solution to the [Codecademy Challenge Project: Company Home Page with 
 ---
 
 #### Desktop View
-<img src="images/desktopView.png" alt="webpage desktop view" width="100%"/>
-<img src="images/desktopView.png" alt="webpage desktop view" width="100%"/>
-<img src="images/desktopView.png" alt="webpage desktop view" width="100%"/>
-<img src="images/desktopView.png" alt="webpage desktop view" width="100%"/>
-<img src="images/desktopView.png" alt="webpage desktop view" width="100%"/>
-<img src="images/desktopView.png" alt="webpage desktop view" width="100%"/>
+<img src="media/webpage-img/desktopView1.png" alt="webpage desktop view" width="100%"/>
+<img src="media/webpage-img/desktopView2.png" alt="webpage desktop view" width="100%"/>
+<img src="media/webpage-img/desktopView3.png" alt="webpage desktop view" width="100%"/>
+<img src="media/webpage-img/desktopView4.png" alt="webpage desktop view" width="100%"/>
+<img src="media/webpage-img/desktopView5.png" alt="webpage desktop view" width="100%"/>
+<img src="media/webpage-img/desktopView6.png" alt="webpage desktop view" width="100%"/>
 
 
 ---
@@ -70,7 +70,7 @@ This is a solution to the [Codecademy Challenge Project: Company Home Page with 
 ### Links
 
 - Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-responsive-profile-card-component.git)
-- Live Site URL: [profile-card-component](https://vlorozco.github.io/Mobile-first-responsive-profile-card-component/)
+- Live Site URL: [Altas Palmas Retreat | Company Home Page with Flexbox](https://vlorozco.github.io/Mobile-first-responsive-profile-card-component/)
 
 ---
 ## My process
@@ -85,17 +85,25 @@ This is a solution to the [Codecademy Challenge Project: Company Home Page with 
 
 ### What I learned
 
-Within this challenge I was able to practice more positioning with absolute and relative, as well as utilizing transform with rotation by degree.
+I learned to create a webpage starting mobile-first view, how to utilize flexbox properties, and how to use media queries!
+
+I struggled for a while with flexbox and getting media queries to work before this project. I researched many sources and began working on projects through Frontendmentor.io to get more acquainted with working on these concepts. I am happy with the progress and all I learned through these projects!
 
 ---
 ### Useful resources
 
-[mdn docs - transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform) - This page helped me with placing the background circles in the correct location.
+[CSS-TRICKS | Chris Coyier - A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This guide to CSS flexbox layout helped me understand flexbox properties and relations with the parent (container) and child (items) elements.
+
+[YouTube | Coder Coder - How to write media queries in CSS](https://www.youtube.com/watch?v=IsC5-C_nuF4) - This video helped me with understanding how to work with viewport setting with min-width and max-width in media queries.
+
+[W3schools - CSS @media Rule](https://www.w3schools.com/cssref/css3_pr_mediaquery.asp) - Another resource for understanding media queries was through W3schools.
+
+
 
 ---
 
 ## Author
 
 - Github - [Veronica L. Orozco](https://github.com/VLOrozco)
-- Frontend Mentor - [@VLOrozco](https://www.frontendmentor.io/profile/VLOrozco)
 - Codecademy - [orozcov3](https://www.codecademy.com/profiles/orozcoV3)
+- Frontend Mentor - [@VLOrozco](https://www.frontendmentor.io/profile/VLOrozco)
