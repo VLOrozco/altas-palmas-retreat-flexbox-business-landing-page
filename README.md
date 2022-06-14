@@ -69,8 +69,8 @@ This is a solution to the [Codecademy Challenge Project: Company Home Page with 
 
 ### Links
 
-- Solution URL: [Github Code](https://github.com/VLOrozco/Mobile-first-responsive-profile-card-component.git)
-- Live Site URL: [Altas Palmas Retreat | Company Home Page with Flexbox](https://vlorozco.github.io/Mobile-first-responsive-profile-card-component/)
+- Solution URL: [Github Code](https://github.com/VLOrozco/altas-palmas-retreat-flexbox-business-landing-page.git)
+- Live Site URL: [Altas Palmas Retreat | Company Home Page with Flexbox](https://vlorozco.github.io/altas-palmas-retreat-flexbox-business-landing-page/)
 
 ---
 ## My process
