@@ -37,12 +37,12 @@ This is a solution to the [Codecademy Challenge Project: Company Home Page with 
 ### Screenshot
 
 #### Mobile View
-<img src="media/webpage-img/mobileView1.png" alt="component mobile view" width="60%"/>
-<img src="media/webpage-img/mobileView2.png" alt="component mobile view" width="60%"/>
-<img src="media/webpage-img/mobileView3.png" alt="component mobile view" width="60%"/>
-<img src="media/webpage-img/mobileView4.png" alt="component mobile view" width="60%"/>
-<img src="media/webpage-img/mobileView5.png" alt="component mobile view" width="60%"/>
-<img src="media/webpage-img/mobileView6.png" alt="component mobile view" width="60%"/>
+<img src="media/webpage-img/mobileView1.png" alt="component mobile view" width="40%"/>
+<img src="media/webpage-img/mobileView2.png" alt="component mobile view" width="40%"/>
+<img src="media/webpage-img/mobileView3.png" alt="component mobile view" width="40%"/>
+<img src="media/webpage-img/mobileView4.png" alt="component mobile view" width="40%"/>
+<img src="media/webpage-img/mobileView5.png" alt="component mobile view" width="40%"/>
+<img src="media/webpage-img/mobileView6.png" alt="component mobile view" width="0%"/>
 
 #### Tablet View
 <img src="images/mobileView.png" alt="component mobile view" width="60%"/>
