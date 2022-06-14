@@ -124,9 +124,9 @@ body {
 }
   .resort-main-img {
     border: 6px ridge rgb(85, 107, 47, 0.7);
-    border-radius: 45px;
-    width: 285px;
-    height: 35vh;
+    border-radius: 50%;
+    width: 290px;
+    height: 285px;
     object-fit: cover;
     box-shadow: 4px 6px 10px #888888;
   }
@@ -583,6 +583,12 @@ letter-spacing: 1px;
     text-align: center;
     padding: 0.1rem;
   }
+  .fa-spa {
+    font-size: 1.6rem;
+  }
+  .fa-pagelines {
+    font-size: 2.5rem;
+  }
 
   /* EMPLOYEES */
   .employee-flexbox {
@@ -644,6 +650,7 @@ letter-spacing: 1px;
     .resort-main-img {
       height: 420px;
       width: 480px;
+      border-radius: 45px;
     }
 
   /* MISSION */
@@ -685,13 +692,31 @@ letter-spacing: 1px;
     margin-top: 0.5rem;
     width: 90%;
   }
+  .fa-spa {
+    font-size: 1.8rem;
+  }
+  .fa-pagelines {
+    font-size: 3rem;
+  }
 
   /* EMPLOYEES */
   .employee-flexbox {
     padding: 1rem;
+    margin-bottom: 5rem;
   }
   .employee-box {
     margin: 1.8rem;
+  }
+
+  /* CTA FORM */
+  .contact-container {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  /* FOOTER */
+  #footer {
+    padding-top: 0.4rem;
   }
 }
 
