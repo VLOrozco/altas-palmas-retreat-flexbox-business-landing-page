@@ -306,7 +306,14 @@ body {
     border: 1px solid #fff;
     background: transparent;
     width: 283px;
+    cursor: text;
   }
+    .input:hover, .input:focus, .msg:hover, .msg:focus {
+      cursor: text;
+      border: 2px solid white;
+      color: white;
+      background-color: hsl(82, 39%, 30%, 0.8);
+    }
   .submit-btn {
     margin-top: 1rem;
     padding: 10px;
@@ -314,7 +321,12 @@ body {
     background: transparent;
     border: 1px solid #fff;
     cursor: pointer;
+    border-radius: 5px;
   }
+    .submit-btn:hover, .submit-btn:active {
+      background-color: hsl(82, 39%, 30%, 0.8);
+      font-size: 1.1rem;
+    }
 
 /* FOOTER | LAYOUT */
 #footer {
