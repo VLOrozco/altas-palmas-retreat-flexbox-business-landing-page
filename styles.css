@@ -608,6 +608,93 @@ letter-spacing: 1px;
   }
 }
 
+@media only screen and (min-width: 1200px) {
+  /* HEADER */
+  #logo-title {
+    font-size: 2.5rem;
+  }
+    .fa-drupal {
+      font-size: 1.6rem;
+    }
+
+  /* NAVBAR */
+  .nav {
+    width: 73%;
+  }
+  .nav-btn {
+    padding: 0.8rem;
+  }
+
+  /* MAIN */
+  .main {
+    margin-top: 2.7rem;
+  }
+    .main-greeting {
+      margin-right: 3.5rem;
+      margin-top: -80px;
+    }
+    #greeting {
+      font-size: 1.4rem;
+      line-height: 2.6rem;
+    }
+    .mini-logo {
+      height: 50px;
+      margin: 0.6rem;
+    }
+    .resort-main-img {
+      height: 420px;
+      width: 480px;
+    }
+
+  /* MISSION */
+  #mission, #activities, #staff-header, .cta-header {
+    font-size: 1.8rem;
+  }
+  .mission-statement, .activities-statement, .staff-statement, .cta-msg {
+    font-size: 1.2rem;
+    word-spacing: 6px;
+    line-height: 2rem;
+  }
+  .mission-statement, .activities-statement, .staff-statement {
+    max-width: 560px;
+  }
+  #mission-img {
+    height: 380px;
+    width: 500px;
+  }
+  .photo-credits, .act-credits p {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    margin: 1.3rem;
+  }
+
+  /* ACTIVITIES */
+  .activities {
+    width: 90%;
+  }
+  .activity-fig {
+    margin-top: 2rem;
+  }
+  #activity1, #activity2, #activity3 {
+    width: 290px;
+    height: 320px;
+    box-shadow: 0 1rem 1rem 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    margin: 1rem;
+  }
+  .act-credits p {
+    margin-top: 0.5rem;
+    width: 90%;
+  }
+
+  /* EMPLOYEES */
+  .employee-flexbox {
+    padding: 1rem;
+  }
+  .employee-box {
+    margin: 1.8rem;
+  }
+}
+
 
 
 
