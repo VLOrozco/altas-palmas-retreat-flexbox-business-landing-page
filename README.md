@@ -44,13 +44,17 @@ This is a solution to the [Codecademy Challenge Project: Company Home Page with 
 <img src="media/webpage-img/mobileView5.png" alt="component mobile view" width="40%"/>
 <img src="media/webpage-img/mobileView6.png" alt="component mobile view" width="0%"/>
 
-#### Tablet View
-<img src="images/mobileView.png" alt="component mobile view" width="60%"/>
-<img src="images/mobileView.png" alt="component mobile view" width="60%"/>
-<img src="images/mobileView.png" alt="component mobile view" width="60%"/>
-<img src="images/mobileView.png" alt="component mobile view" width="60%"/>
-<img src="images/mobileView.png" alt="component mobile view" width="60%"/>
+---
 
+#### Tablet View
+<img src="media/webpage-img/tabletView1.png" alt="component mobile view" width="60%"/>
+<img src="media/webpage-img/tabletView2.png" alt="component mobile view" width="60%"/>
+<img src="media/webpage-img/tabletView3.png" alt="component mobile view" width="60%"/>
+<img src="media/webpage-img/tabletView4.png" alt="component mobile view" width="60%"/>
+<img src="media/webpage-img/tabletView5.png" alt="component mobile view" width="60%"/>
+<img src="media/webpage-img/tabletView6.png" alt="component mobile view" width="60%"/>
+
+---
 
 #### Desktop View
 <img src="images/desktopView.png" alt="component desktop view" width="100%"/>
